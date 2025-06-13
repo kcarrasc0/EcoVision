@@ -12,6 +12,20 @@ O EcoVision é uma evolução do projeto FireVision: uma plataforma web que comb
 
 ---
 
+## 🖼️ Protótipo no Figma
+
+> Link para o design no Figma:  
+📌 [seu link aqui]
+
+---
+
+## ✏️ Documentação
+
+> Link para a documentação no Google Docs
+📌 [Seu link aqui]
+
+---
+
 ## 🚀 Funcionalidades
 - 🔐 Login com autenticação segura
 - 📍 Mapa com localização das indústrias monitoradas
