@@ -1,0 +1,32 @@
+.header {
+  background-color: #1e1e1e;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color:  #ff3300
+}
+
+.logo{
+  border-radius: 100%
+}

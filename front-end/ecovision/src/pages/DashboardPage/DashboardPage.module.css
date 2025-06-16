@@ -1,0 +1,142 @@
+/* Estrutura geral da página */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  gap: 24px;
+  padding: 50px;
+  background-color: #384b37;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Seção de upload */
+.uploadContainer {
+  background-color: #1e1e1e;
+  padding: 24px;
+  border-radius: 16px;
+  grid-column: span 2;
+}
+
+.uploadForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.uploadForm input[type="file"],
+.uploadForm input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+/* Cards de resumo */
+.summaryCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  grid-column: span 2;
+}
+
+.card {
+  background-color: #1e1e1e;
+  flex: 1;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+/* Tabela de documentos */
+.errorsCard {
+  background-color: #1e1e1e;
+  padding: 24px;
+  border-radius: 16px;
+  grid-column: span 2;
+  overflow-x: auto;
+}
+
+.errorsCard h2 {
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: #ff66bc;
+}
+
+td {
+  background-color: #222;
+  color: white;
+}
+
+td pre {
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+/* Botão deletar dentro da tabela */
+button[title="Deletar Documento"] {
+  background-color: #ff4d4f;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Gráfico */
+.chartCard {
+  background-color: #1e1e1e;
+  padding: 24px;
+  border-radius: 16px;
+  grid-column: span 1;
+}
+
+.chartCard h2 {
+  margin-bottom: 16px;
+}
+
+/* Calendário */
+.calendarSection {
+  background-color: #1e1e1e;
+  padding: 24px;
+  border-radius: 16px;
+  grid-column: span 2;
+}
+
+/* Responsivo mobile */
+@media (max-width: 768px) {
+  .uploadForm {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 100%;
+  }
+}

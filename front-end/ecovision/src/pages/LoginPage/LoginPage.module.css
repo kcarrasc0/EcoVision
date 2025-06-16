@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.logo {
+  height: 200px;
+  margin-bottom: 32px;
+  border-radius: 100%;
+}
+
+.form {
+  background: white;
+  padding: 32px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 400px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+
+.divider {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+}
