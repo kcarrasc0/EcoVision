@@ -30,3 +30,28 @@
 .logo{
   border-radius: 100%
 }
+.user {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logout {
+  background-color: #ff3300;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.logout:hover {
+  background-color: #cc2900;
+}
