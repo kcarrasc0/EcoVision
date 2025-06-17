@@ -1,4 +1,4 @@
-# 🌿 EcoVision Web App – Sistema de Monitoramento Ambiental Industrial
+# 🌿 EcoVision Web App – Sistema de Monitoramento Ambiental de Queimadas
 O EcoVision é uma evolução do projeto FireVision: uma plataforma web que combina visão computacional, dados ambientais públicos e tecnologias de nuvem para monitorar riscos ambientais industriais no Brasil. Inicialmente desenvolvido para detectar incêndios em tempo real pela câmera do usuário, o sistema foi aprimorado para incorporar APIs do IBAMA, INPE e análise preditiva com aprendizado de máquina. O EcoVision é uma plataforma web robusta que utiliza dados em tempo real, visão computacional e aprendizado de máquina para o monitoramento inteligente de riscos ambientais associados à atividade industrial no Brasil. O sistema integra múltiplas fontes de dados, incluindo arquivos do INPE e APIs públicas, para fornecer um dashboard analítico e preditivo.
 
 Este projeto destaca-se pela sua arquitetura moderna, com um backend em Node.js/Express e um frontend em React, e um fluxo de autenticação seguro em duas etapas (2FA) com JWT.
