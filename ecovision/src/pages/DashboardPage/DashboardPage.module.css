@@ -140,3 +140,70 @@ button[title="Deletar Documento"] {
     flex: 1 1 100%;
   }
 }
+
+
+/* ====================================================== */
+/* --- NOVOS ESTILOS PARA OS CONTROLES DO DASHBOARD --- */
+/* ====================================================== */
+
+.controlsContainer {
+  grid-column: 1 / -1; /* Ocupa a largura total da grid */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  background-color: #1e1e1e; /* Usa a mesma cor dos seus cards */
+  padding: 24px;
+  border-radius: 16px;
+  align-items: flex-end;
+  /* margin-bottom: 24px; */ /* Descomente se quiser mais espaço entre os controles e os gráficos */
+}
+
+.filterItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+  min-width: 200px; /* Largura mínima para cada filtro */
+}
+
+.filterItem label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.filterItem select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  height: 48px; /* Adicionado para alinhar altura com o botão */
+}
+
+.downloadButton {
+  padding: 12px 24px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  height: 48px; /* Mesma altura dos selects */
+}
+
+.downloadButton:hover {
+  background-color: #4338ca;
+}
+
+.loading {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 24px;
+  padding: 50px;
+  color: #fff;
+}
