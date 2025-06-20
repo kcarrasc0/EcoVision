@@ -80,6 +80,7 @@ PostgreSQL: (Planejado para produção) Banco de dados relacional robusto para o
 ---
 
 ## 📁 Estrutura do Projeto
+```text
 eco-vision/
 ├── backend/
 │   ├── data/
@@ -108,7 +109,7 @@ eco-vision/
     │   │   └── LoginPage/
     │   └── App.jsx
     └── package.json
-
+```
 ---
 
 ## ☁️ API e Rotas
