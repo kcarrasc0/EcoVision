@@ -174,7 +174,8 @@ npm install
 Inicie a aplicação de desenvolvimento:
 Bash
 
-npm run dev
+cd backend: no terminal "node server.js"
+cd src: no terminal "npm run dev"
 
 ## 🌍 Licença
 Este projeto foi desenvolvido para fins educacionais e está aberto para colaboração.
